@@ -20,7 +20,7 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             xmpls/gin
-            ghcr.io/dckr-xmpls/gin
+            ghcr.io/build-xmpls/gin
           # generate Docker tags based on the following events/attributes
           tags: |
             type=schedule
